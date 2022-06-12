@@ -8,11 +8,11 @@ import './navigation.styles.scss'
 const Navigation = () => {
 	return (
 		<Fragment>
-			<div className='navigation'>
-				<Link className='logo-container' to='/'><CrwnLogo className='logo' /></Link>
-				<div className='nav-links-container'>
-					<Link className='nav-link' to='/shop'>SHOP</Link>
-					<Link className='nav-link' to='/sign-in'>SIGN IN</Link>
+			<div className='Navigation'>
+				<Link className='Navigation-logo-container' to='/'><CrwnLogo className='Navigation-logo' /></Link>
+				<div className='Navigation-links-container'>
+					<Link className='Navigation-link' to='/shop'>SHOP</Link>
+					<Link className='Navigation-link' to='/sign-in'>SIGN IN</Link>
 				</div>
 			</div>
 			<Outlet />
