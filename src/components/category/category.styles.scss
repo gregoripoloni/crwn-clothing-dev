@@ -1,6 +1,8 @@
 .Category {
-	$Category-body-background: rgba(255, 255, 255, .7);
-	$Category-text: #4a4a4a;
+	$Category-border: black;
+	$Category-body-border: black;
+	$Category-body-background: white;
+	$Category-title-font: #4a4a4a;
 
 	min-width: 30%;
 	height: 240px;
@@ -8,7 +10,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border-radius: 2px;
+	border: 1px solid $Category-border;
 	margin: 0 7.5px 15px;
 	overflow: hidden;
 
@@ -21,6 +23,11 @@
 
 		& .Category-background {
 			transform: scale(1.1);
+			transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+		}
+
+		& .Category-body {
+			opacity: 0.9;
 		}
 	}
 
@@ -29,34 +36,30 @@
 		height: 100%;
 		background-size: cover;
 		background-position: center;
-		filter: saturate(40%) blur(1px);
-		transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
 	}
 
 	.Category-body {
-		height: 150px;
-		width: 350px;
+		height: 90px;
 		padding: 0 25px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		border: 1px solid $Category-body-border;
 		background-color: $Category-body-background;
-		backdrop-filter: saturate(180%) blur(20px);
-		border-radius: 2px;
+		opacity: 0.7;
 		position: absolute;
 
 		.Category-title {
 			font-weight: bold;
 			margin: 0 6px 0;
 			font-size: 22px;
-			color: $Category-text;
+			color: $Category-title-font;
 		}
 
 		.Category-text {
 			font-weight: lighter;
 			font-size: 16px;
-			color: $Category-text;
 		}
 	}
 }
