@@ -3,23 +3,23 @@ import styled from 'styled-components'
 import { SpinnerContainer } from '../spinner/spinner.styles'
 
 export const BaseButton = styled.button`
-	min-width: 165px;
+	min-width: 130px;
 	width: auto;
-	height: 50px;
-	letter-spacing: 0.5px;
-	line-height: 50px;
-	padding: 0 35px 0 35px;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 20px 0 20px;
 	font-size: 15px;
 	background-color: black;
 	color: white;
-	text-transform: uppercase;
-	font-family: 'Open Sans';
+	font-family: 'Poppins';
 	font-weight: bolder;
-	border: none;
+	border: 1px solid transparent;
+	border-radius: 10px;
 	cursor: pointer;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: background-color .2s, border-color .2s;
 
 	&:hover {
 		background-color: white;
@@ -37,8 +37,9 @@ export const GoogleSignInButton = styled(BaseButton)`
 	color: white;
 
 	&:hover {
-		background-color: #357ae8;
-		border: none;
+		background-color: white;
+		color: #4285f4;
+		border: 1px solid #4285f4;
 	}
 `
 
@@ -55,6 +56,7 @@ export const InvertedButton = styled(BaseButton)`
 `
 
 export const ButtonSpinner = styled(SpinnerContainer)`
-	width: 30px;
-	height: 30px;
+	border-top-color: white;
+	width: 20px;
+	height: 20px;
 `

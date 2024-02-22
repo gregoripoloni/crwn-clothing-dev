@@ -5,8 +5,6 @@ import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js'
 import { selectCartTotal } from '../../store/cart/cart.selector'
 import { selectCurrentUser } from '../../store/user/user.selector'
 
-import { BUTTON_TYPE_CLASSES} from '../button/button.component'
-
 import { PaymentFormContainer, FormContainer, PaymentButton } from './payment-form.styles'
 
 const PaymentForm = () => {
@@ -58,7 +56,7 @@ const PaymentForm = () => {
 			<FormContainer onSubmit={paymentHandler}>
 				<h2>Credit Card Payment: </h2>
 				<CardElement />
-				<PaymentButton isLoading={isProcessingPayment} buttonType={BUTTON_TYPE_CLASSES.inverted}>Pay now</PaymentButton>
+				<PaymentButton isLoading={isProcessingPayment}>Pay now</PaymentButton>
 			</FormContainer>
 		</PaymentFormContainer>
 	)

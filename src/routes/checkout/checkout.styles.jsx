@@ -6,15 +6,15 @@ export const CheckoutContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	row-gap: 20px;
 	margin: 50px auto 0;
 `
 
 export const CheckoutHeader = styled.div`
 	width: 100%;
-	padding: 10px 0;
+	padding: 10px 15px;
 	display: flex;
 	justify-content: space-between;
-	border-bottom: 1px solid darkgrey;
 `
 
 export const HeaderBlock = styled.div`

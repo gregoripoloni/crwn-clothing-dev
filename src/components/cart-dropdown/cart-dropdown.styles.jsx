@@ -4,14 +4,16 @@ import { BaseButton, GoogleSignInButton, InvertedButton } from "../button/button
 export const CartDropdownContainer = styled.div`
 	position: absolute;
 	width: 240px;
-	height: 340px;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
+	gap: 20px;
 	padding: 20px;
-	border: 1px solid black;
+	border-radius: 16px;
 	background-color: white;
 	top: 90px;
 	right: 40px;
+	box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 	z-index: 5;
 
 	${BaseButton}, ${GoogleSignInButton}, ${InvertedButton} {
@@ -23,7 +25,9 @@ export const CartItems = styled.div`
 	height: 240px;
 	display: flex;
 	flex-direction: column;
-	overflow: scroll;
+	overflow-y: scroll;
+	border-radius: 8px;
+	gap: 15px;
 `
 
 export const EmptyMessage = styled.span`

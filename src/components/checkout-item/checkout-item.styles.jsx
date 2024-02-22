@@ -4,19 +4,22 @@ export const CheckoutItemContainer = styled.div`
 	width: 100%;
 	display: flex;
 	min-height: 100px;
-	border-bottom: 1px solid darkgrey;
-	padding: 15px 0;
+	background-color: #F5F6F9;
+	padding: 15px;
 	font-size: 20px;
 	align-items: center;
+	border-radius: 16px;
 `
 
 export const ImageContainer = styled.div`
 	width: 23%;
-	padding-right: 15px;
+	padding-right: 20px;
+	display: flex;
 
 	img {
 		width: 100%;
 		height: 100%;
+		border-radius: 16px;
 	}
 `
 

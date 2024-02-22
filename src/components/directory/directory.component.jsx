@@ -6,31 +6,31 @@ const categories = [
 	{
 		id: 1,
 		title: 'hats',
-		imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+		imageUrl: 'https://png.pngtree.com/png-vector/20231019/ourmid/pngtree-red-cap-wear-hip-hop-hat-model-front-view-png-image_10256546.png',
 		route: 'shop/hats'
 	},
 	{
 		id: 2,
 		title: 'jackets',
-		imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+		imageUrl: 'https://wguforlife.com/cdn/shop/products/CTJ131_carharttbrown_model_front_102018.png?v=1631114086',
 		route: 'shop/jackets'
 	},
 	{
 		id: 3,
 		title: 'sneakers',
-		imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+		imageUrl: 'https://sneakerrequest.com/cdn/shop/products/adidas-yeezy-qntm-lifestyle-model-sneakers-adidas-sneaker-request-811848.png?v=1702050791&width=800',
 		route: 'shop/sneakers'
 	},
 	{
 		id: 4,
 		title: 'womens',
-		imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+		imageUrl: 'https://freepngimg.com/thumb/girl/23082-6-woman-model-transparent-background.png',
 		route: 'shop/womens'
 	},
 	{
 		id: 5,
 		title: 'mens',
-		imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+		imageUrl: 'https://static.vecteezy.com/system/resources/previews/028/680/061/original/beige-fashion-background-with-model-man-png.png',
 		route: 'shop/mens'
 	}
 ]
