@@ -13,8 +13,14 @@ export const LogoContainer = styled(Link)`
 	display: flex;
 	align-items: center;
 	height: 100%;
-	width: 70px;
+	width: 60px;
 	margin-left: 20px;
+
+	transition: transform .2s;
+
+	&:active {
+		transform: scale(0.95);
+	}
 `
 
 export const NavLinks = styled.div`
@@ -29,4 +35,10 @@ export const NavLink = styled(Link)`
 	font-weight: bold;
 	padding: 10px 15px;
 	cursor: pointer;
+
+	transition: transform .2s;
+
+	&:active {
+		transform: scale(0.95);
+	}
 `

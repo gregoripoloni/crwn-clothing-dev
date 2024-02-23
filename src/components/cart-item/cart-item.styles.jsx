@@ -22,4 +22,8 @@ export const ItemDetails = styled.div`
 
 export const Name = styled.span`
 	font-size: 16px;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 `

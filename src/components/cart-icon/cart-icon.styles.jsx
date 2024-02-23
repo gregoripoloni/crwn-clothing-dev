@@ -9,6 +9,11 @@ export const CartIconContainer = styled.div`
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
+	transition: transform .2s;
+
+	&:active {
+		transform: scale(0.95);
+	}
 `
 
 export const ShoppingIcon = styled(ShoppingSvg)`

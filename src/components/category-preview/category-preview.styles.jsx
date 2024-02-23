@@ -5,6 +5,8 @@ export const CategoryPreviewContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 30px;
+	margin-left: 7.5px;
+	margin-right: 7.5px;
 `
 
 export const Title = styled(Link)`
