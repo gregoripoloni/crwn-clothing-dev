@@ -23,15 +23,15 @@ const categories = [
 	},
 	{
 		id: 4,
-		title: 'womens',
+		title: 'women',
 		imageUrl: 'https://freepngimg.com/thumb/girl/23082-6-woman-model-transparent-background.png',
-		route: 'shop/womens'
+		route: 'shop/women'
 	},
 	{
 		id: 5,
-		title: 'mens',
+		title: 'men',
 		imageUrl: 'https://static.vecteezy.com/system/resources/previews/028/680/061/original/beige-fashion-background-with-model-man-png.png',
-		route: 'shop/mens'
+		route: 'shop/men'
 	}
 ]
 
