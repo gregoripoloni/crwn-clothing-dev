@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Body = styled.div`
 	height: 90px;
@@ -16,7 +16,11 @@ export const Body = styled.div`
 	}
 `
 
-export const DirectoryItemContainer = styled.div`
+type DirectoryItemContainerProps = {
+	$imageurl: string
+}
+
+export const DirectoryItemContainer = styled.div<DirectoryItemContainerProps>`
 	min-width: 30%;
 	height: 240px;
 	flex: 1 1 auto;
