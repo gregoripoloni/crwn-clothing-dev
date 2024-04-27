@@ -22,7 +22,7 @@ type DirectoryItemContainerProps = {
 
 export const DirectoryItemContainer = styled.div<DirectoryItemContainerProps>`
 	min-width: 30%;
-	height: 240px;
+	height: 335px;
 	flex: 1 1 auto;
 	display: flex;
 	align-items: end;
@@ -49,5 +49,9 @@ export const DirectoryItemContainer = styled.div<DirectoryItemContainerProps>`
 
 	&:last-child {
 		margin-left: 7.5px;
+	}
+
+	@media screen and (max-width: 839px) {
+		height: 300px;
 	}
 `

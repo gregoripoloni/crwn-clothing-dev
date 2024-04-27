@@ -5,6 +5,12 @@ export const CheckoutContainer = styled.div`
 	display: flex;
 	justify-content: space-between;
 	margin: 50px 7.5px 0;
+
+	@media screen and (max-width: 839px) {
+		flex-direction: column-reverse;
+		align-items: center;
+		row-gap: 60px;
+	}
 `
 
 export const CheckoutPaymentContainer = styled.div`
@@ -12,6 +18,10 @@ export const CheckoutPaymentContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	row-gap: 20px;
+
+	@media screen and (max-width: 839px) {
+		width: 100%;
+	}
 `
 
 export const CheckoutItemsContainer = styled.div`
@@ -20,6 +30,10 @@ export const CheckoutItemsContainer = styled.div`
 	flex-direction: column;
 	align-items: center;
 	row-gap: 20px;
+
+	@media screen and (max-width: 839px) {
+		width: 100%;
+	}
 `
 
 export const CheckoutHeader = styled.div`

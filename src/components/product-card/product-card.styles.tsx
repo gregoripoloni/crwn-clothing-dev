@@ -13,6 +13,10 @@ export const ProductCardContainer = styled.div`
 		object-fit: cover;
 		margin-bottom: 10px;
 		border-radius: 16px;
+
+		@media screen (max-width: 839px) {
+			height: 300px;
+		}
 	}
 `
 
